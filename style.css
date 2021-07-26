@@ -1,0 +1,72 @@
+body {
+    background: rgb(0, 0, 0) url(img/background.svg);
+    color: #fff;
+    margin: 0 175px;
+}
+
+.logo {
+    left: 0;
+    margin: 0 -100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Bebas Neue Bold';
+    font-weight: 700;
+}
+
+.min_title {
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: -50px;
+    font-size: 1.7em;
+    font-weight: 400;
+    font-family: 'TT Commons Medium';
+}
+
+.text {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 400;
+    font-family: 'TT Commons Medium';
+}
+
+.text_1 {
+    font-family: 'TT Commons Medium';
+    font-weight: 100;
+}
+
+.block_text {
+    display: flex;
+    align-content: space-around;
+    font-size: 1.7em;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    vertical-align: middle;
+    line-height: 100px;
+    font-weight: 400;
+    font-family: 'TT Commons Medium';
+}
+
+.image {
+    padding-left: 400px;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('fonts/BebasNeueBold.eot');
+    src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'), url('fonts/BebasNeueBold.woff') format('woff'), url('fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons Medium';
+    src: url('fonts/TTCommons-Medium.eot');
+    src: url('TTCommons-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/TTCommons-Medium.woff') format('woff'), url('fonts/TTCommons-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
